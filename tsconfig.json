@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "noEmitOnError": true,
+        "removeComments": true,
+        "outDir": "js"
+    },
+    
+}
