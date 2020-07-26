@@ -6,20 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/estilos.css">
-
 </head>
 
 <body>
 
 
 
-    <p>oi</p>
-    <p>ola</p>
-    <p>oi</p>
+
+    <p onclick="NegociacaoContrpller.adiciona()">ola</p>
 
 
 
-    <script src="/js/index.js"></script>
+    <script src="node_modules/systemjs/dist/system.min.js"></script>
+
+    <script>
+        System.defaultJSExtensions = true;
+        System.import('./app/js/boot.js').catch(err => console.error(err));
+    </script>
+
+
 </body>
 
 </html>
